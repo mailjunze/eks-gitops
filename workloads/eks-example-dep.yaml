@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: 052589820004.dkr.ecr.eu-west-1.amazonaws.com/eks-gitops-sampleapp:d062d011
+        image: 052589820004.dkr.ecr.eu-west-1.amazonaws.com/eks-gitops-sampleapp:2f16f1ed
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
